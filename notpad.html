@@ -2,47 +2,12 @@
 
 <head>
     <title>Notepad</title>
-    <script>
-        (function () {
-            var notepad = null;
-            window.addEventListener('load', function () {
-                notepad = document.getElementById("notepad");
-
-                notepad.innerHTML = window.localStorage.getItem("notepad_contents");
-
-                window.onbeforeunload = function () {
-                    window.localStorage.setItem("notepad_contents", notepad.innerHTML);
-                };
-            });
-
-            window.addEventListener('keydown', function (ev) {
-                if (!ev.altKey && !ev.ctrlKey && !ev.metaKey) {
-                    if (ev.key == "Tab") {
-                        if (notepad.contentEditable == "false") {
-                            notepad.contentEditable = "true";
-                        } else {
-                            notepad.contentEditable = "false";
-                        }
-
-                        ev.preventDefault();
-                    }
-                }
-            });
-        })();
-    </script>
-
-    <style>
-        #notepad {
-            font: 2rem/1.5 monospace;
-            max-width: 60rem;
-            margin: 0 auto;
-            padding: 4rem;
-            word-wrap: break-word;
-            color: #D4D4D4;
-            background-color: #1E1E1E;
-        }
-    </style>
+    <script src="notepad.js"></script>
+    <script src="toki2linja.js"></script>
+    <link rel="stylesheet" type="text/css" href="notepad.css"/>
+    
 </head>
 
 <body id="notepad" contenteditable="true">
+    <script>0</script> <!-- To prevent "unstyled flash"-->
 </body>
