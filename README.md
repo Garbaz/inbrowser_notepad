@@ -1,5 +1,7 @@
 # In-Browser Notepad
 
+([website](https://garbaz.github.io/inbrowser_notepad/))
+
 A simple offline in-browser notepad. Contents are automatically saved on closing the page. 
 
 Require a reasonably moder browser, since it uses `window.localStorage` for saving.
