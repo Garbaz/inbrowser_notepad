@@ -1,6 +1,6 @@
 # In-Browser Notepad
 
-(_[website](https://garbaz.github.io/inbrowser_notepad/))
+([_website_](https://garbaz.github.io/inbrowser_notepad/))
 
 A simple offline in-browser notepad. Contents are automatically saved on closing the page. 
 
