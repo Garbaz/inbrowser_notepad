@@ -2,12 +2,21 @@
     font-family: "linja-pona";
     src: url("linja-pona-4.9.otf");
 }
+
+body {
+    background-color: #1A1A1A;
+    padding: 0.5rem;
+}
+
 #notepad {
     font: 2rem/1.5 monospace, "linja-pona";
     max-width: 60rem;
     margin: 0 auto;
-    padding: 4rem;
     word-wrap: break-word;
     color: #D4D4D4;
-    background-color: #1E1E1E;
+    background-color: #222;
+    height: 100%;
+
+    z-index: 1;
+    overflow-y: hidden;
 }
