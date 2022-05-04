@@ -5,7 +5,7 @@ var notepad_edited = false;
 const edited_status = function(edited) {
     notepad_edited = edited;
     if (notepad_edited) {
-        document.title = '(*)Notepad';
+        document.title = '*Notepad';
     } else {
         document.title = 'Notepad';
     }
