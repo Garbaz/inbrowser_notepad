@@ -12,4 +12,4 @@ Pressing `Tab` toggles the editability of the text field.
 
 Pressing `Ctrl+S` saves the contents. This is pretty much redundant, since saving occurs automatically upon the tab being closed. This just exists so that I don't keep accidentally opening the save dialogue of the browser out of habit. 
 
-Pressing `Ctrl+D` downloads the current contents as a text file.
+Pressing `Ctrl+E` downloads ("exports") the current contents as a text file.

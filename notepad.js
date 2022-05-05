@@ -51,7 +51,7 @@ window.addEventListener('keydown', function(ev) {
         save_notepad_contents();
     }
 
-    if ((ev.ctrlKey && ev.key == 'd') && (!ev.altKey && !ev.metaKey && !ev.shiftKey)) {
+    if ((ev.ctrlKey && ev.key == 'e') && (!ev.altKey && !ev.metaKey && !ev.shiftKey)) {
         ev.preventDefault();
 
         const date = new Date(Date.now()).toISOString().replace(/:/g, '-').slice(0, -5);
